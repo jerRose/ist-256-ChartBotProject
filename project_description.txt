@@ -1,0 +1,8 @@
+In lieu of an opportunity to demo our project, I'm going to briefly describe the functionality of our program.
+Our code has two main outputs: The 13 pre-determined charts who's data will be tweeted periodically throughout the week, and the reply feature of our code.
+The reply bot acts as both a delay which enables us to control the time at which the pre-determined tweets will be sent, as well as allow users to interact with the software.
+If a user wants to request the top song from a chart, they can simply tweet at us and follow the format in our pinned tweet. This will trigger one of three responses.
+The first response is no reponse. This will occur if the tweet either doesn't tag our account, or doesn't include all of the keywords
+The next response will occur if the user didn't format there request properly. It will tell the user that their request is invalid and ask them to re-sumibt their request
+Finally, the last reply occurs when the user formats their tweet correct and tags us. This will trigger a tweet posting the number one song from that chart at that given date, along with the song's artist and any featuring artist
+The code will then loop back to check if any new tweets were pulished mentioning @ChartBotProject
